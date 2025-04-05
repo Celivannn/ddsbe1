@@ -22,4 +22,5 @@ class AuthenticateAccess
         }
         abort(Response::HTTP_UNAUTHORIZED);
     }
+
 }

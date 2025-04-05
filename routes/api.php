@@ -9,7 +9,6 @@ $router->get('/', function () use ($router) {
 // ✅ Routes WITHOUT the 'api' prefix
 $router->get('/users', 'UserController@index'); // Get all users
 $router->get('/users/{id}', 'UserController@show'); // Get user by ID
-$router->post('/users', 'UserController@store');
 $router->post('/users', 'UserController@add');
 $router->put('/users/{id}', 'UserController@update'); // Update user
 $router->patch('/users/{id}', 'UserController@update'); // Partial update
