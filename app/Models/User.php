@@ -7,7 +7,6 @@ class User extends Model
 {
     protected $table = 'tbluser';
     protected $primaryKey = 'id';
-    protected $hidden = ['password',];
     public $timestamps = false;
     protected $fillable = [
         'username', 
