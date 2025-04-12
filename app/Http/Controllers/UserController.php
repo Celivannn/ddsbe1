@@ -25,7 +25,7 @@ class UserController extends Controller
         return $this->successResponse($users);
     }
 
-    public function addUser(Request $request)
+    public function add(Request $request)
     {
         $rules = [
             'username' => 'required|max:20',
